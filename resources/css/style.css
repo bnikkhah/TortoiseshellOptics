@@ -128,3 +128,20 @@ footer{
 	padding:4rem 1rem 4rem 4rem;
 	height:1.5rem;
 }
+
+@media only screen and (max-width:1024px){
+	header{
+		height:22rem;
+		padding-top:0;
+	}
+	
+	header h1{
+		padding:0.75rem 4rem;
+		font-size:1.33rem;
+		margin-right:2rem;
+	}
+	
+	.main-banner{
+		margin-top:5rem;
+	}
+}

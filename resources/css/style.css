@@ -18,12 +18,12 @@ header{
 	background-repeat:no-repeat;
 	background-position:center;
 	background-size:cover;
+	padding-top:1rem;
 }
 
 nav{
 	background-color:cadetblue;
 	color:white;
-	margin-top:1rem;
 	display:flex;
 	align-items:center;
 }
@@ -113,4 +113,18 @@ figure.delivery img{
 
 .service-info p{
 	padding-top:1rem;
+}
+
+footer{
+	background-color:azure;
+}
+
+.logo-footer{
+	display:flex;
+	align-items:center;
+}
+
+.logo-footer img{
+	padding:4rem 1rem 4rem 4rem;
+	height:1.5rem;
 }

@@ -145,3 +145,94 @@ footer{
 		margin-top:5rem;
 	}
 }
+
+@media only screen and (max-width:470px){
+	header{
+		height:17rem;
+		background-position:20%;
+	}
+	
+	header h1{
+		padding:1rem 0;
+		font-size:1rem;
+		text-align:center;
+		width:100%;
+		margin-right:0;
+	}
+	
+	.main-banner{
+		margin-top:9rem;
+		justify-content:center;
+	}
+	
+	.desktop-nav{
+		display:none;
+	}
+	
+	.mobile-nav{
+		display:flex;
+		justify-content:space-between;
+		align-items:center;
+		list-style-type:none;
+	}
+	
+	.mobile-nav img{
+		height:1.5rem;
+		padding:1rem 0;
+	}
+	
+	.mobile-nav li{
+		padding:0 2rem;
+	}
+	
+	.services{
+		flex-direction:column;
+		align-items:center;
+		padding:3rem 0;
+	}
+	
+	figure{
+		padding:0.77rem 0;
+		height:6rem;
+		width:5.3rem;
+	}
+	
+	figcaption{
+		font-size:0.77rem;
+	}
+	
+	.information-display{
+		flex-direction:column;
+		align-items:center;
+	}
+	
+	.service-info{
+		width:100%;
+		padding-bottom:4rem;
+	}
+	
+	.service-info span{
+		margin-bottom:0.5rem;
+		display:block;
+		width:100%;
+		text-align:center;
+	}
+	
+	.logo-footer span{
+		display:none;
+	}
+	
+	.logo-footer{
+		justify-content:center;
+	}
+	
+	.logo-footer img{
+		padding:4rem 0rem;
+	}
+}
+
+@media only screen and (min-width:470px){
+	.mobile-nav{
+		display:none;
+	}
+}

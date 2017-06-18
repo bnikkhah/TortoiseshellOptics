@@ -1,3 +1,41 @@
 html{
 	font-size:18px;
 }
+
+body{
+	line-height:1.4rem;
+	font-family:Helvetica;
+}
+
+.container{
+	max-width:960px;
+	margin:0 auto;
+}
+
+header{
+	background-color:cadetblue;
+	color:white;
+	margin-top:1rem;
+	display:flex;
+	align-items:center;
+}
+
+.logo{
+	display:flex;
+	align-items:center;
+	flex-grow:1;
+}
+
+.logo img{
+	height:1.5rem;
+	padding:1rem 1rem 1rem 2rem;
+}
+
+nav ul{
+	display:flex;
+	padding-right:1rem;
+}
+
+ul li{
+	padding:0 1rem;
+}
